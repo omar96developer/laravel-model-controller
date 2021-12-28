@@ -1,0 +1,18 @@
+main {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+    .card{
+        background-color: lightblue;
+        width: calc(100% / 5 - 36px );
+        border: 3px solid black;
+        border-radius: 20px;
+        padding: 10px;
+        h1 {
+            text-align: center;
+        }  
+    }
+}
